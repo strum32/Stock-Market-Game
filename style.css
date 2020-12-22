@@ -1,0 +1,66 @@
+
+nav {
+  border-style: solid;
+  height: 80px;
+  width: auto;
+  background-color: white;
+  font-size: 20px;
+}
+
+img {
+  height: 400px;
+  width: 100%;
+}
+
+.beach {
+  margin-left: 440px;
+}
+
+.trading {
+  margin-left: 482px;
+}
+
+.min {
+  margin-left: 455px;
+}
+
+.textPic {
+  width: 100%
+  position: relative;
+  margin-top: -45%
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.pick {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.item {
+text-align: center;
+height: 200px;
+width: 150px;
+padding: 10px;
+border-style: solid;
+}
+
+#Image {
+  margin-top: 10px;
+  height: 400px;
+  margin-left: atuo;
+  margin-right: auto;
+  width: auto;
+  background-color: white;
+}
+
