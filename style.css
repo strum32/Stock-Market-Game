@@ -1,6 +1,5 @@
 
 nav {
-  border-style: solid;
   height: 80px;
   width: auto;
   background-color: white;
@@ -13,26 +12,29 @@ nav {
 
 .pick-1 {
   position: absolute;
-  top: 8px;
-  right: 16px;
   top: 20px;
   right: 250px;
 }
 
 .pick-2 {
   position: absolute;
-  top: 8px;
-  right: 16px;
-  top: 175px;
-  right: 290px;
+  top: 80px;
+  right: 325px;
 }
 
 .pick-3 {
   position: absolute;
-  top: 8px;
-  right: 16px;
-  top: 205px;
+  top: 115px;
   right: 265px;
+}
+
+.button2 {
+  position: absolute;
+  top: 155px;
+  right: 320px;
+  width: 150px;
+  height: 40px;
+  font-size: 22px;
 }
 
 img {
@@ -111,7 +113,8 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10px;
+  padding: 100px;
+  text-align: left;
 }
 
 .item {
@@ -121,6 +124,7 @@ width: 230px;
 padding: 30px 20px 39px;
 margin: 0px 20px 0px 0px;
 border-style: solid;
+text-align: left;
 }
 
 .item-4 {
