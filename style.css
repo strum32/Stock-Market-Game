@@ -12,33 +12,71 @@ img {
   width: 100%;
 }
 
-.beach {
-  margin-left: 440px;
-}
-
-.trading {
-  margin-left: 482px;
-}
-
-.min {
-  margin-left: 455px;
+.bear {
+  padding: 15px;
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .textPic {
-  width: 100%
-  position: relative;
-  margin-top: -45%
+  display: flex;
+  align-items: center;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
-.pick {
-  width: 100px;
+.no {
+margin: 15px 30px 0px 0px;
+font-size: 40px;
 }
+
+.home {
+  margin: 25px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.market {
+  margin: 25px;
+  font-size: 20px;
+}
+
+.win {
+  margin: 25px;
+  font-size: 20px;
+}
+
+.lose {
+  margin: 25px;
+  font-size: 20px;
+}
+
+.pricing {
+  margin: 25px;
+  font-size: 20px;
+}
+
+input {
+  margin: 25px;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+  }
+  
+  button {
+  margin: 25px;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-right: 30px;
+  }
 
 .container {
   display: flex;
