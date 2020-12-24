@@ -6,7 +6,7 @@ const tickerBtn = document.querySelector("#tickerBtn")
 const url = 'https://www.alphavantage.co/query?function=OVERVIEW&symbol='
 const apiKey = '&apikey=demoYVLLN54HCHSO7WZX'
 const dataDiv = document.querySelector(".data")
-
+const main1 = document.querySelector(".main")
 
 
 const getData = async () => {
@@ -17,13 +17,26 @@ const getData = async () => {
     const stockData = response.data
     console.log(stockData)   
     
-    inputValue.querySelector('.stockName')
-
-      dataDiv.innerHTML += `
-      <h1>${stockData.Name}</h1>
+    dataDiv.innerHTML += `
+    <h1>${stockData.Name}</h1>
+    <div class="currentPrice">
+    <h1>${stockData.BookValue}</h1>
+    </div>
+    <div class="analystPrice">
+     <h1>${stockData.AnalystTargetPrice}</h1>
+    </div>
+    <div class="stats">
+    <h1>52 Week High:${stockData.WeekHigh}</h1>
+    <h1>${stockData.AnalystTargetPrice}</h1>
+    <h1>${stockData.AnalystTargetPrice}</h1>
+    <h1>${stockData.AnalystTargetPrice}</h1>
+    </div>
       `
 
-
+    
+    
+    
+    inputValue = ""
   } catch (error) {
     console.log(error)
   }
