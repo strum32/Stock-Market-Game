@@ -1,4 +1,9 @@
 
+.data {
+  background-color: red;
+  border-style: solid;
+}
+
 nav {
   height: 80px;
   width: auto;
@@ -46,7 +51,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  justify-content: space-evenly;
+  text-decoration: none;
 }
 
 .bear {
@@ -60,7 +65,6 @@ img {
 
 .no {
 margin-top: 15px;
-
 font-size: 40px;
 }
 
@@ -113,7 +117,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 100px;
+  padding: 20px;
   text-align: left;
 }
 
@@ -130,6 +134,109 @@ text-align: left;
 .item-4 {
   background-color: #2aa4f0;
 }
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  text-align: left;
+}
+.list-1 {
+  border-style: solid;
+  height: 50px;
+  width: 230px;
+  padding: 30px 20px 39px;
+  margin: 0px 20px 20px 0px;
+  border-style: solid;
+}
+.list-2 {
+  border-style: solid;
+  height: 50px;
+  width: 230px;
+  padding: 30px 20px 39px;
+  margin: 0px 20px 20px 0px;
+  border-style: solid;
+}
+.list-3 {
+  border-style: solid;
+  height: 50px;
+  width: 230px;
+  padding: 30px 20px 39px;
+  margin: 0px 20px 20px 0px;
+  border-style: solid;
+}
+.list-4 {
+  border-style: solid;
+  height: 50px;
+  width: 230px;
+  padding: 30px 20px 39px;
+  margin: 0px 20px 20px 0px;
+  border-style: solid;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 910px;
+  text-align: center;
+}
+
+.side-2 {
+text-align: center;
+height: 300px;
+width: 230px;
+padding: 30px 20px 39px;
+margin: 0px 20px 20px 0px;
+border-style: solid;
+}
+
+.side-3 {
+  text-align: center;
+  height: 220px;
+  width: 230px;
+  padding: 30px 20px 39px;
+  border-style: solid;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 600px
+  text-align: left;
+}
+
+.bottom-1 {
+text-align: center;
+height: 220px;
+width: 230px;
+padding: 30px 20px 39px;
+margin: 0px 20px 0px 0px;
+border-style: solid;
+text-align: left;
+}
+
+.bottom-2 {
+text-align: center;
+height: 220px;
+width: 230px;
+padding: 30px 20px 39px;
+margin: 0px 20px 0px 0px;
+border-style: solid;
+text-align: left;
+}
+
+.bottom-3 {
+text-align: center;
+height: 220px;
+width: 230px;
+padding: 30px 20px 39px;
+margin: 0px 20px 0px 0px;
+border-style: solid;
+text-align: left;
+}
+
 
 #Image {
   margin-top: 10px;
