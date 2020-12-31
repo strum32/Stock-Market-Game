@@ -27,17 +27,37 @@ const getData = async () => {
    console.log(stockData)
     
     let dataInfo = `
-    <h1>${stockData[0]["2. name"]}</h1>
-    <div class="analystPrice">
-     <h3>Analyst Price ${companyData.AnalystTargetPrice}</h3>
+   
+    <div class="symbol">
+    <h1>${companyData.Symbol}</h1>
     </div>
+    <div class="price">
+    <h2>$ ${stockInfo[stockInfoKey]["4. close"]}</h2>
+    </div>
+    <div class="combine">
+    <h3>${stockData[0]["2. name"]}</h3>
+    <h3> ${companyData.Exchange}
+    <h3> ${companyData.Country}</h3>
+    </div>
+   </div>
     <div class="stats">
-    <h3>Open ${stockInfo[stockInfoKey]["1. open"]}</h3>
-    <h3>Close ${stockInfo[stockInfoKey]["4. close"]}</h3>
-    <h3>High ${stockInfo[stockInfoKey]["2. high"]}</h3>
-    <h3>Low ${stockInfo[stockInfoKey]["3. low"]}</h3>
-    <h3>Volume ${stockInfo[stockInfoKey]["5. volume"]}</h3>
-    <h3>Dividend Yield ${companyData.DividendYield}</h3>
+    <h3>Close : ${stockInfo[stockInfoKey]["4. close"]}</h3>
+    <h3>High: ${stockInfo[stockInfoKey]["2. high"]}</h3>
+    <h3>Volume: ${stockInfo[stockInfoKey]["5. volume"]}</h3>
+    <h3>52 Week High: ${companyData['52WeekHigh']}</h3>
+    <h3>Market Cap: ${companyData.MarketCapitalization}</h3>
+    </div>
+
+    <div class="stats2"
+    <h3>52 Week Low: ${companyData['52WeekLow']}</h3>
+    <h3>Low: ${stockInfo[stockInfoKey]["3. low"]}</h3>
+    <h3>Dividend Yield: ${companyData.DividendYield}</h3>
+    <h3>Close : ${stockInfo[stockInfoKey]["4. close"]}</h3>
+    <h3>Earnings Per Share: ${companyData.EPS}</h3>
+    </div>
+
+    <div class="description">
+    <p> Company Description ${companyData.Description}</p>
     </div>
       `
     dataDiv.innerHTML = dataInfo

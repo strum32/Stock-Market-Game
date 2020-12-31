@@ -1,9 +1,4 @@
 
-.data {
-  background-color: red;
-  border-style: solid;
-}
-
 nav {
   height: 80px;
   width: auto;
@@ -104,11 +99,12 @@ input {
   }
   
   button {
-  margin: 25px;
+  margin: 25px 0px 0px 0px;
   height: 25px;
+  width: 150px;
   border-radius: 25px;
   font-size: 15px;
-  margin-right: 30px;
+  margin-right: 20px;
   background-color: #065cb7;
   color: white;
   }
@@ -246,4 +242,53 @@ text-align: left;
   width: auto;
   background-color: white;
 }
+
+.stats {
+text-align: left;
+}
+
+/* this is where market CSS begins */
+
+.data {
+  background-color: red;
+  border-style: solid;
+}
+
+.symbol {
+  color: #FFFAFA;
+  font-family: OpenSans-Light; 
+}
+
+.stats {
+  color: #FFFAFA;
+  display: flex;
+  flex-direction: column;
+  margin-left: 55%;
+  margin-top: -15%;
+}
+
+.stats2 {
+  color: #FFFAFA;
+  display: flex;
+  flex-direction: column;
+  margin-left: 78%;
+  margin-top: -21.7%;
+}
+
+.price {
+  font-size: 30px;
+  color: #FFFAFA;
+}
+
+.combine {
+  color: #FFFAFA;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start space-inbetween;
+  margin-top: 1%;
+  
+}
+
+
+
 
