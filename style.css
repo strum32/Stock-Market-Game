@@ -104,7 +104,6 @@ input {
   width: 150px;
   border-radius: 25px;
   font-size: 15px;
-  margin-right: 20px;
   background-color: #065cb7;
   color: white;
   }
@@ -250,33 +249,49 @@ text-align: left;
 /* this is where market CSS begins */
 
 .data {
-  background-color: red;
+  background-color: #30829c;
   border-style: solid;
+  height: 900px;
 }
 
 .symbol {
   color: #FFFAFA;
   font-family: OpenSans-Light; 
+  font-size: 25px;
+  margin-top: 4%;
+  margin-left: 3%;
 }
 
 .stats {
-  color: #FFFAFA;
+  color: #fcf3e7;
   display: flex;
   flex-direction: column;
-  margin-left: 55%;
-  margin-top: -15%;
+  margin-left: 59%;
+  margin-top: -22%;
+  font-size: 13.5px;
+  font-family: OpenSans-Regular
 }
 
 .stats2 {
-  color: #FFFAFA;
+  color: #fcf3e7;
   display: flex;
   flex-direction: column;
-  margin-left: 78%;
-  margin-top: -21.7%;
+  margin-top: -17.6%;
+  margin-left: 80%;
+  font-size: 13.5px;
+  font-family: OpenSans-Regular
 }
 
 .price {
   font-size: 30px;
+  color: #FFFAFA;
+  margin-left: 3%;
+  margin-top: 4.4%;
+} 
+
+.analyst {
+  margin-top: 4%;
+  margin-left: 3%;
   color: #FFFAFA;
 }
 
@@ -284,9 +299,15 @@ text-align: left;
   color: #FFFAFA;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start space-inbetween;
-  margin-top: 1%;
-  
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-right: 67.7%;
+}
+
+.description {
+  margin-top: 11%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
