@@ -40,8 +40,11 @@ const getData = async () => {
     <h2>Analyst Target Price: ${companyData.AnalystTargetPrice}</h2>
     </div>
 
-    <div class="combine">
+    <div class="name">
     <h3>${stockData[0]["2. name"]}</h3>
+    <div>
+
+    <div class="combine">
     <h3> ${companyData.Exchange}
     <h3> ${companyData.Country}</h3>
     </div>
