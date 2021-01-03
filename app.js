@@ -41,7 +41,7 @@ const getData = async () => {
     </div>
 
     <div class="name">
-    <h3>${stockData[0]["2. name"]}</h3>
+    <h2>${stockData[0]["2. name"]}</h2>
     <div>
 
     <div class="combine">
@@ -50,7 +50,7 @@ const getData = async () => {
     </div>
   
     <div class="stats">
-    <h3>Open: ${stockInfo[stockInfoKey]["1. open"]}</h3>
+    <h3>Open: (${stockInfo[stockInfoKey]["1. open"]})</h3>
     <h3>High: ${stockInfo[stockInfoKey]["2. high"]}</h3>
     <h3>Volume: ${stockInfo[stockInfoKey]["5. volume"]}</h3>
     <h3>52 Week High: ${companyData['52WeekHigh']}</h3>
