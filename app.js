@@ -65,6 +65,10 @@ const getData = async () => {
     <h3>Close : ${stockInfo[stockInfoKey]["4. close"]}</h3>
     <h3>Earnings Per Share: ${companyData.EPS}</h3>
     </div>
+
+    <div class="description">
+    <p>${companyData.Description}</p>
+    </div>
       `
     dataDiv.innerHTML = dataInfo
 
@@ -74,8 +78,3 @@ const getData = async () => {
 }
 
 tickerBtn.addEventListener("click", getData);
-
-
-{/* <div class="description">
-<p>${companyData.Description}</p>
-</div> */}
