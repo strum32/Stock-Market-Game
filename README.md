@@ -11,10 +11,13 @@
 1.https://cloud.iexapis.com/stable/stock/AAPL/book/2?period=annual&token=pk_3595f2a3dcd54938aa399641bb54ceed
 
 ### MVP
-1. Search bar that will allow you to look up any stock or crypto currency
-2. top gainers of the day top losers of the day 
-3. stock watcher. for any stocks you own. 
-4. up to date information. 
+1. Search bar that will allow you to look up any stock
+2. Describe what the stock does in detail
+3. Up to date stock information.
+4. create multiple ways to get to the api page
+5. create a responsive design.
+6. create an event listner that is correlated to a button
+
 
 ## Post MVP
 1. build a stock market game where you will be able to invest money into different stocks. make it so the game is based on the live outcome of the stock but the game is much shorter then an actually day (so a day equals 4 minutes based on what the stocks are doing at that moment.)
@@ -42,11 +45,11 @@
 
 | Task | Expected Time | Actual Time |
 | ---- | ------------- | ----------- |
-| HTML | 2 hrs         | xxx         |
-| CSS  | 3 hrs        | xxx         |
-| API  | 4 hrs        | xxx         |
-| Search Bar  | 2 hrs        | xxx   |
-| javaScript  | 5 hrs        | xxx         |
+| HTML | 4 hrs         | 5        |
+| CSS  | 5 hrs         | 5       |
+| API  | 5 hrs         | 6       |
+| Search Bar  | 2 hrs        | 3   |
+| javaScript  | 5 hrs        | 5        |
 
 
 ​
