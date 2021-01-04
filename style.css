@@ -287,7 +287,7 @@ text-align: left;
 
 .stats {
   font-size: 18px;
-  margin-left: 685px;
+  margin-left: 52%;
   margin-top: -350px;
   color: #fcf3e7;
   display: flex;
@@ -298,7 +298,7 @@ text-align: left;
 .stats2 {
   font-size: 18px;
   color: #fcf3e7;
-  margin-left: 1025px;
+  margin-left: 75.5%;
   margin-top: -332px;
   display: flex;
   flex-direction: column;
@@ -306,7 +306,7 @@ text-align: left;
 }
 
 .description {
-  margin-top:60px;
+  margin-top:80px;
   margin-right:20px;
   font-size: 18px;
   color: black; 
@@ -314,6 +314,18 @@ text-align: left;
 
 /* where my media queries begin */
 
+@media (max-width: 1257px) {
+  .stats{margin-right: 50px;}
+  .stats2{margin-right:35px;}
+  .stats, .stats2{font-size:15px;}
+  .symbol, .price{font-size:15px;}
+  .name, .analyst{font-size:18px;}
+  .stats{margin-top:-290px;}
+  .stats2{margin-top:-274px;}
+  .description{margin-top:75px;}
+  .symbol, .price{margin-top:45px;}
+  .name, .analyst{margin-top:45px;}
+}
 
 @media (max-width: 880px) {
   .pick-1{font-size:25px;
@@ -353,8 +365,9 @@ text-align: left;
 }
 
 @media (max-width:570px) {
-  .pick-1, .pick-2, .pick-3{margin-right:-30px;}
-  .button2{margin-right:-17px;}
+  .pick-1, .pick-3{margin-right:-30px;}
+  .pick-2{margin-right: -15px;}
+  .button2{margin-right:-8px;}
 }
 
 @media (max-width: 530px) {
