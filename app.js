@@ -28,9 +28,19 @@ const getData = async () => {
     
     let dataInfo = `
    
+    <div class="combine">
+    <h3> ${companyData.Exchange}
+    <h3> ${companyData.Country}</h3>
+    </div>
+
     <div class="symbol">
     <h1>${companyData.Symbol}</h1>
     </div>
+
+    <div class="name">
+    <h2>${stockData[0]["2. name"]}</h2>
+    <div>
+
 
     <div class="price">
     <h2>$ ${stockInfo[stockInfoKey]["1. open"]}</h2>
@@ -39,18 +49,9 @@ const getData = async () => {
     <div class="analyst">
     <h2>Analyst Target Price: ${companyData.AnalystTargetPrice}</h2>
     </div>
-
-    <div class="name">
-    <h2>${stockData[0]["2. name"]}</h2>
-    <div>
-
-    <div class="combine">
-    <h3> ${companyData.Exchange}
-    <h3> ${companyData.Country}</h3>
-    </div>
   
     <div class="stats">
-    <h3>Open: (${stockInfo[stockInfoKey]["1. open"]})</h3>
+    <h3>Open: ${stockInfo[stockInfoKey]["1. open"]}</h3>
     <h3>High: ${stockInfo[stockInfoKey]["2. high"]}</h3>
     <h3>Volume: ${stockInfo[stockInfoKey]["5. volume"]}</h3>
     <h3>52 Week High: ${companyData['52WeekHigh']}</h3>
@@ -64,10 +65,6 @@ const getData = async () => {
     <h3>Close : ${stockInfo[stockInfoKey]["4. close"]}</h3>
     <h3>Earnings Per Share: ${companyData.EPS}</h3>
     </div>
-    
-    <div class="description">
-    <p>${companyData.Description}</p>
-    </div>
       `
     dataDiv.innerHTML = dataInfo
 
@@ -79,4 +76,6 @@ const getData = async () => {
 tickerBtn.addEventListener("click", getData);
 
 
-
+{/* <div class="description">
+<p>${companyData.Description}</p>
+</div> */}
