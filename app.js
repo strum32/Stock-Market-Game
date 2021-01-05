@@ -17,7 +17,6 @@ const getData = async () => {
     const stockData = response.data.bestMatches
     const stockInfo = response2.data['Time Series (5min)']
     const stockInfoKey = Object.keys(stockInfo)[0]
-    console.log(stockInfo[stockInfoKey])
     const companyData = response3.data
     
     let dataInfo = `
