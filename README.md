@@ -22,8 +22,9 @@
 ## Post MVP
 1. build a stock market game where you will be able to invest money into different stocks. make it so the game is based on the live outcome of the stock but the game is much shorter then an actually day (so a day equals 4 minutes based on what the stocks are doing at that moment.)
 2. add another api where we can add an article page. and articles pertaining to the stock you are looking up. 
-3. integrating the graphs 
-4. Comparison charts of two stocks/ crypto
+3. integrating graphs 
+4. adding in a crypto api
+5. function that will allow the price color to change due to the price going up or down. 
 
 ### Priority Matrix
 
