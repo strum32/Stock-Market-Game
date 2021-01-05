@@ -1,9 +1,7 @@
 const ticker = document.querySelector("#ticker")
 const tickerBtn = document.querySelector("#tickerBtn")
-const url = 'https://www.alphavantage.co/query?function=OVERVIEW&symbol='
 const apiKey = '&apikey=demoYVLLN54HCHSO7WZX'
 const dataDiv = document.querySelector(".data")
-const main1 = document.querySelector(".main")
 const inputValue = document.querySelector('input').value
 
 
