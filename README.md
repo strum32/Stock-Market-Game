@@ -12,7 +12,7 @@
 
 ### MVP
 1. Search bar that will allow you to look up any stock
-2. Describe what the stock does in detail
+2. Describe what the company does in detail
 3. Up to date stock information.
 4. create multiple ways to get to the api page
 5. create a responsive design.
