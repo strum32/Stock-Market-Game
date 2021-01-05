@@ -327,6 +327,26 @@ text-align: left;
   .name, .analyst{margin-top:45px;}
 }
 
+@media (max-width: 1041px) {
+  .data{background-color: #FFFAFA;}
+  .name{font-size:15px;
+         color: teal;}  
+  .symbol{font-size:15px;
+         color: teal;}
+  .price{font-size:15px;
+         color: teal;}
+  .analyst{font-size:12px;
+         color: teal;}
+  .stats{font-size:12px;
+         color: teal;}
+  .stats2{font-size:12px;
+          margin-top: -220px;
+         color: teal;}
+  .description{font-size:12px;
+         margin-top:160px;
+         color: teal;}
+}
+
 @media (max-width: 880px) {
   .pick-1{font-size:25px;
           margin-top:25.75px;}
