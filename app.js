@@ -8,6 +8,7 @@ const inputValue = document.querySelector('input').value
 
 
 const getData = async () => {
+//  e.preventDefault();
   const url = `https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=${ticker.value}&apikey=demoYVLLN54HCHSO7WZX`
   const url2 = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${ticker.value}&interval=5min&outputsize=full&apikey=demoYVLLN54HCHSO7WZX`
   const url3 = `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${ticker.value}&apikey=demoYVLLN54HCHSO7WZX`
@@ -21,31 +22,24 @@ const getData = async () => {
     const stockInfoKey = Object.keys(stockInfo)[0]
     console.log(stockInfo[stockInfoKey])
     const companyData = response3.data
-   console.log(stockInfo)
-   console.log(companyData)
-   console.log(stockData[0]['2. name'])   
-   console.log(stockData)
     
+//interpulated the string
+
     let dataInfo = `
    
     <div class="combine">
     <h3> ${companyData.Exchange}
     <h3> ${companyData.Country}</h3>
     </div>
-
     <div class="symbol">
     <h1>${companyData.Symbol}</h1>
     </div>
-
     <div class="name">
     <h2>${stockData[0]["2. name"]}</h2>
     <div>
-
-
     <div class="price">
     <h2>$ ${stockInfo[stockInfoKey]["1. open"]}</h2>
     </div>
-
     <div class="analyst">
     <h2>Analyst Target Price: ${companyData.AnalystTargetPrice}</h2>
     </div>
@@ -57,7 +51,6 @@ const getData = async () => {
     <h3>52 Week High: ${companyData['52WeekHigh']}</h3>
     <h3>Market Cap: ${companyData.MarketCapitalization}</h3>
     </div>
-
     <div class="stats2">
     <h3>52 Week Low: ${companyData['52WeekLow']}</h3>
     <h3>Low: ${stockInfo[stockInfoKey]["3. low"]}</h3>
@@ -65,7 +58,6 @@ const getData = async () => {
     <h3>Close : ${stockInfo[stockInfoKey]["4. close"]}</h3>
     <h3>Earnings Per Share: ${companyData.EPS}</h3>
     </div>
-
     <div class="description">
     <p>${companyData.Description}</p>
     </div>
