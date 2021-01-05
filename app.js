@@ -21,10 +21,6 @@ const getData = async () => {
     const stockInfoKey = Object.keys(stockInfo)[0]
     console.log(stockInfo[stockInfoKey])
     const companyData = response3.data
-   console.log(stockInfo)
-   console.log(companyData)
-   console.log(stockData[0]['2. name'])   
-   console.log(stockData)
     
     let dataInfo = `
    
